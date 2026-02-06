@@ -4,11 +4,8 @@ The Raspberry Pi boot process is different from normal PCs.
 In Raspberry Pi, the **GPU starts first – not the CPU.**
 
 Below is a detailed step-by-step explanation based on the diagram.
-<div align="center">
-  <img src="../../ASSETS/booting process .jpeg" alt="Booting Process" width="200">
-</div>
 
-
+![alt text](<../../ASSETS/booting proceess.png>)
 ---
 
 ### Step 1 – Power ON
@@ -183,17 +180,8 @@ All these files must be present in the SD card boot partition:
 | config.txt          | System configuration    |
 | cmdline.txt         | Kernel parameters       |
 | kernel.img / zImage | Linux kernel            |
-
 ---
 
-## Conclusion
 
-* Raspberry Pi boot process is **GPU-driven**, unlike PCs where BIOS/UEFI starts CPU first.
-* Understanding this flow is very important for:
-
-  * Yocto image building
-  * Custom kernel development
-  * Bootloader debugging
-  * Embedded Linux work
 
 
