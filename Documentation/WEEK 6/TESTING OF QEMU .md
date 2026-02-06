@@ -100,5 +100,5 @@ A new window or terminal will open showing the Linux image booting in QEMU.
 
 You can log in as user `root` 
 
-![alt text](<ASSETS/QEMU TEST.png>)
+![alt text](<../../ASSETS/QEMU TEST.png>)
 
